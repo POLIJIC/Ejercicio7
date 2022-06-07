@@ -1,13 +1,13 @@
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="validaredad">
+    <xs:element name="validarcontidad">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="edad">
+                <xs:element name="cantidad">
                     <xs:simpleType>
                         <xs:restriction base="xs:integer">
-                            <xs:minInclusive value="16"/>
-                            <xs:maxInclusive value="50"/>
+                            <xs:minInclusive value="-30"/>
+                            <xs:maxInclusive value="30"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>

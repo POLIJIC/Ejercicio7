@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<validaredad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<validarcontidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="Ejercicio7.xsd">
 
-    <edad>50</edad>
+    <cantidad>20</cantidad>
